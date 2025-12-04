@@ -72,8 +72,8 @@ const Index = () => {
             Профессиональное строительство и ремонт любой сложности. 
             Качество, проверенное временем.
           </p>
-          <a href="tel:+74951234567" className="text-2xl md:text-3xl font-bold text-white mb-8 inline-block hover:scale-105 transition-transform">
-            +7 (495) 123-45-67
+          <a href="tel:+79056387149" className="text-2xl md:text-3xl font-bold text-white mb-8 inline-block hover:scale-105 transition-transform">
+            +7 (905) 638-71-49
           </a>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Button size="lg" className="text-lg px-8 py-6 bg-white text-orange-600 hover:bg-orange-50 shadow-xl hover:scale-105 transition-transform">
