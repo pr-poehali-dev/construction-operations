@@ -12,7 +12,7 @@ const Index = () => {
   const services = [
     {
       icon: 'Building2',
-      title: 'Строительство домов',
+      title: 'Строительство бань',
       description: 'Полный цикл строительства от фундамента до крыши',
       color: 'from-orange-500 to-red-500'
     },
