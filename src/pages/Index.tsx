@@ -17,22 +17,34 @@ const Index = () => {
       color: 'from-orange-500 to-red-500'
     },
     {
+      icon: 'Flame',
+      title: 'Установка печей',
+      description: 'Монтаж банных печей и дымоходов',
+      color: 'from-red-500 to-orange-500'
+    },
+    {
       icon: 'Hammer',
-      title: 'Ремонт и отделка',
-      description: 'Качественный ремонт любой сложности',
+      title: 'Отделка вагонкой',
+      description: 'Качественная отделка парилки и комнаты отдыха',
       color: 'from-blue-500 to-cyan-500'
+    },
+    {
+      icon: 'Waves',
+      title: 'Обустройство парилки',
+      description: 'Полки, вентиляция, теплоизоляция',
+      color: 'from-purple-500 to-pink-500'
     },
     {
       icon: 'Wrench',
       title: 'Реконструкция',
-      description: 'Модернизация и обновление зданий',
-      color: 'from-purple-500 to-pink-500'
+      description: 'Модернизация и обновление старых бань',
+      color: 'from-green-500 to-emerald-500'
     },
     {
       icon: 'Ruler',
       title: 'Проектирование',
-      description: 'Разработка архитектурных решений',
-      color: 'from-green-500 to-emerald-500'
+      description: 'Разработка индивидуальных проектов бань',
+      color: 'from-teal-500 to-cyan-500'
     }
   ];
 
@@ -103,7 +115,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
               <Card 
                 key={index}
