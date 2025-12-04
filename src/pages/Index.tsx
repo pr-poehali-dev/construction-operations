@@ -68,11 +68,14 @@ const Index = () => {
           <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 drop-shadow-2xl">
             Строим будущее
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl mx-auto">
             Профессиональное строительство и ремонт любой сложности. 
             Качество, проверенное временем.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="tel:+74951234567" className="text-2xl md:text-3xl font-bold text-white mb-8 inline-block hover:scale-105 transition-transform">
+            +7 (495) 123-45-67
+          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Button size="lg" className="text-lg px-8 py-6 bg-white text-orange-600 hover:bg-orange-50 shadow-xl hover:scale-105 transition-transform">
               <Icon name="Phone" className="mr-2" size={20} />
               Заказать звонок
